@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour:SCAN@-20&display=swap');
 
 * {
   padding: 0;
@@ -51,254 +54,152 @@ body {
   transition: all 0.8s ease-in-out;
 }
 
-/* Sample CSS for the WHY word */
-
-.whyWLetter {
-  font-size: 72px;
-  font-weight: bold;
-  color: aqua;
-  text-decoration: underline;
-  text-transform: uppercase;
-  font-family: 'Piazolla', sans-serif;
-}
-
-.whyHLetter {
-  font-size: 30px;
-  font-weight: bold;
-  color: darkgoldenrod;
-  text-decoration: overline;
-  text-transform: lowercase;
-  font-family: 'Ceviche One', sans-serif;
-}
-
-.whyYLetter {
-  font-size: 60px;
-  font-weight: normal;
-  color: coral;
+.WLetter {
+  font-size: 76px;
+  font-weight: 300;
+  font-style: normal;
+  color: rgb(10, 165, 237);
+  font-family: "Sixtyfour", serif;
+    font-variation-settings: 
+     "BLED" 5,
+     "SCAN" -30;
   text-decoration: none;
+}
+
+.HLetter,
+.BLetter {
+  font-size: 56px;
+  color: rgb(80, 223, 125);
+  font-family: "Rubik Moonrocks", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.YLetter,
+.VLetter,
+.exclamation-mark {
+  font-size: 80px;
+  text-decoration: double;
+  text-transform: lowercase;
+  text-shadow: 2px 2px 8px whitesmoke;
+  color: chocolate;
+  font-family: "Ceviche One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.DLetter,
+.MLetter,
+.ULetter {
+  font-size: 64px;
+  text-decoration: overline;
   text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+  text-shadow: 3px 3px 6px #ffa3dd;
+  color: #c10b82;
+  font-family: "Rubik Glitch", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-/* DID word */
-
-.didDLetter {
+.ILetter {
+  font-size: 68px;
+  text-decoration: underline;
+  text-transform: lowercase;
+  color: rgb(95, 158, 160);
+  font-family: "Rubik Moonrocks", serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
-.didILetter {
+.TLetter {
+  font-size: 78px;
+  text-transform: uppercase;
+  color: #dc143c;
+  font-family: "Raleway Dots", serif;
+    font-weight: 900;
+    font-style: normal;
 }
 
-.didDTwoLetter {
+.KLetter {
+  font-size: 78px;
+  text-transform: lowercase;
+  color: #dc143c;
+  font-family: "Raleway Dots", serif;
+    font-weight: 900;
+    font-style: normal;
 }
 
-/* THE word */
-
-.theTLetter {
+.ELetter,
+.GLetter {
+  font-size: 78px;
+  text-transform: lowercase;
+  text-decoration: double;
+  color: #fd2323;
+  font-family: "Rubik Moonrocks", serif;
+    font-weight: 400;
+    font-style: normal
 }
 
-.theHLetter {
+.FLetter{
+  font-size: 60px;
+  text-transform: capitalize;
+  text-decoration: overline;
+  color: rgb(255, 20, 147);
+  font-family: "Raleway Dots", serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
-.theELetter {
+.RLetter,
+.CLetter {
+  font-size: 64px;
+  text-transform: uppercase;
+  text-decoration: wavy;
+  color: rgb(255, 215, 0);
+  font-family: "Piazzolla", serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
-/* FRONT-END word */
-
-.frontendFLetter {
+.OLetter,
+.SLetter {
+  font-size: 64px;
+  text-transform: uppercase;
+  text-decoration: line-through;
+  color: rgb(127, 255, 212);
+  font-family: "Ceviche One", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-.frontendRLetter {
+.NLetter,
+.LLetter {
+  font-size: 68px;
+  text-transform: lowercase;
+  color: rgb(0, 177, 77);
+  text-shadow: 3px 1px 15px rgb(0, 255, 119), 0 0 1em black, 0 0 .5em black;
+  font-family: "Sixtyfour", serif;
+    font-variation-settings: 
+      "BLED" 5,
+      "SCAN" -30;
 }
 
-.frontendOLetter {
+.ALetter,
+.question-mark,
+.PLetter {
+  font-size: 60px;
+  color: #00ddff;
+  font-family: "Piazzolla", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  text-shadow: 1px 0px 30px #00b3ce, 0 0 1em #cb00ce, 0 0 .5em #cb00ce ;
 }
-
-.frontendNLetter {
-}
-
-.frontendTLetter {
-}
-
-.frontendELetter {
-}
-
-.frontendNTwoLetter {
-}
-
-.frontendDLetter {
-}
-
-/* DEVELOPER word */
-
-.developerDLetter {
-}
-.developerELetter {
-}
-.developerVLetter {
-}
-.developerETwoLetter {
-}
-.developerLLetter {
-}
-.developerOLetter {
-}
-.developerPLetter {
-}
-.developerEThreeLetter {
-}
-.developerRLetter {
-}
-
-/* TAKE word */
-
-.takeTLetter {
-}
-.takeALetter {
-}
-.takeKLetter {
-}
-.takeELetter {
-}
-
-/* UP word */
-
-.upULetter {
-}
-.upPLetter {
-}
-
-/* GARDENING word */
-
-.gardeningGLetter {
-}
-.gardeningALetter {
-}
-.gardeningRLetter {
-}
-.gardeningDLetter {
-}
-.gardeningELetter {
-}
-.gardeningNLetter {
-}
-.gardeningILetter {
-}
-.gardeningNTwoLetter {
-}
-.gardeningGTwoLetter {
-}
-
-/* BECAUSE word */
-
-.becauseBLetter {
-}
-.becauseELetter {
-}
-.becauseCLetter {
-}
-.becauseALetter {
-}
-.becauseULetter {
-}
-.becauseSLetter {
-}
-.becauseETwoLetter {
-}
-
-/* THEY word */
-
-.theyTLetter {
-}
-.theyHLetter {
-}
-.theyELetter {
-}
-.theyYLetter {
-}
-
-/* WANTED word */
-
-.wantedWLetter {
-}
-.wantedALetter {
-}
-.wantedNLetter {
-}
-.wantedTLetter {
-}
-.wantedELetter {
-}
-.wantedDLetter {
-}
-
-/* TO word */
-
-.toTLetter {
-}
-.toOLetter {
-}
-
-/* IMPROVE word */
-
-.improveILetter {
-}
-.improveMLetter {
-}
-.improvePLetter {
-}
-.improveRLetter {
-}
-.improveOLetter {
-}
-.improveVLetter {
-}
-.improveELetter {
-}
-
-/* THEIR word */
-
-.theirTLetter {
-}
-.theirHLetter {
-}
-.theirELetter {
-}
-.theirILetter {
-}
-.theirRLetter {
-}
-
-/* ROOT word */
-
-.rootRLetter {
-}
-.rootOLetter {
-}
-.rootOTwoLetter {
-}
-.rootTLetter {
-}
-
-/* SKILLS word */
-
-.skillsSLetter {
-}
-.skillsKLetter {
-}
-.skillsILetter {
-}
-.skillsLLetter {
-}
-.skillsLTwoLetter {
-}
-.skillsSTwoLetter {
-}
-
-/* SYMBOLS */
 
 .hyphen {
-}
-.exclamation-mark {
-}
-.question-mark {
+  font-size: 60px;
+  color: rgb(0, 191, 255);
+  font-family: "Rubik Glitch", serif;
+    font-weight: 400;
+    font-style: oblique;
 }
